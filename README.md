@@ -13,7 +13,7 @@ to quickly start building your web applications. **Currently it is under develop
   - [Running Application](#running-application)
 
 ## Documentation
-[Read Documentation](https://github.com/kharbanda14/express-quickstart-app)
+[Read Documentation](https://kharbanda14.github.io/express-quickstart-app/#/)
 
 ## Features
 1. Passport JWT Authentication Configured
