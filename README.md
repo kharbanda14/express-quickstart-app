@@ -42,9 +42,13 @@ to quickly start building your web applications. **Currently it is under develop
 10. [joi](https://www.npmjs.com/package/joi)
 
 ## Installation
+1. Install Packages
 ```bash
 npm i
+or 
+yarn install
 ```
+2. Create `.env` file from `.env.sample` and update the values accordingly.
 
 ## Running Application
 ```bash
