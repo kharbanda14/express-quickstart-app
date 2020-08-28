@@ -1,15 +1,19 @@
 # Express API QuickStart
 
 ## Introduction
-Express QuickStarter is basically a Express web framework organized with all the necessary features and modules you need
+Express QuickStarter is basically a Express application organized with all the necessary features and modules you need
 to quickly start building your web applications. **Currently it is under development** and so is the documentation.
 
 - [Express API QuickStart](#express-api-quickstart)
   - [Introduction](#introduction)
+  - [Documentation](#documentation)
   - [Features](#features)
   - [Packages/Modules used](#packagesmodules-used)
   - [Installation](#installation)
   - [Running Application](#running-application)
+
+## Documentation
+[Read Documentation](https://github.com/kharbanda14/express-quickstart-app)
 
 ## Features
 1. Passport JWT Authentication Configured

@@ -1,6 +1,6 @@
 # Authentication
 
-The framework has already configured the following modules
+The application has already configured the following modules
 - [passport](https://www.npmjs.com/package/passport)
 - [passport-jwt](https://www.npmjs.com/package/passport-jwt)
 

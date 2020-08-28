@@ -20,7 +20,7 @@
   "devDependencies": {
     "nodemon": "^2.0.4"
   },
-  "description": "API QuickStarter is a basically a Express web framework organized with all the necessary features you need to start building your web applications.",
+  "description": "API QuickStarter is a basically a Express web application organized with all the necessary features you need to start building your web applications.",
   "main": "app.js",
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
   },
   "keywords": [
     "express",
-    "framework"
+    "application"
   ],
   "author": "Aman Kharbanda <amankharbanda34@gmail.com>",
   "license": "MIT",
