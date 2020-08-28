@@ -1,7 +1,7 @@
 # Express API QuickStarter
 
 ## Introduction
-API QuickStarter is basically a Express web framework organized with all the necessary features and modules you need
+API QuickStarter is basically a Express web application organized with all the necessary features and modules you need
 to quickly start building your web applications. **Currently it is under development** and so is the documentation.
 
 - [Express API QuickStarter](#express-api-quickstarter)
