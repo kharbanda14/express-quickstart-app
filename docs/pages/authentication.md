@@ -9,7 +9,7 @@ The framework has already configured the following modules
 ### Authentication Provider
 
 ```javascript
-const { auth } = require("express-quickstart-framework"); // instance of passport.PassportStatic
+const { auth } = require("express-quickstart-package"); // instance of passport.PassportStatic
 ```
 
 You are free to configure, add more strategies to your passport as per your needs.
@@ -21,7 +21,7 @@ Routes that needs authentication, helper method **requiresAuth()** is already pr
 ```javascript
 const {
   requiresAuth,
-} = require("express-quickstart-framework").middleware;
+} = require("express-quickstart-package").middleware;
 
 router.get(
   "/profile",

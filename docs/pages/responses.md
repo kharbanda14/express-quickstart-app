@@ -7,7 +7,7 @@ Responses are simple utilities that transforms a model object data.
 The following defines how to transform the data using `static toArray` method.
 
 ```javascript
-const { TransformResponse } = require("express-quickstart-framework").response;
+const { TransformResponse } = require("express-quickstart-package").response;
 
 module.exports = class UserResponse extends TransformResponse {
   static toArray(user) {

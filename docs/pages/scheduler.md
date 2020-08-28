@@ -12,7 +12,7 @@ getJob(name: any): Job;
 ## Usage
 ```javascript
 
-const { addJob } = require("express-quickstart-framework").scheduler;
+const { addJob } = require("express-quickstart-package").scheduler;
 addJob(jobName, interval, () => {
   // do something here
 });

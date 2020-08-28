@@ -28,7 +28,7 @@ MAIL_FROM_EMAIL="admin@localhost.com"
 As per the sample Email.
 
 ```javascript
-const { MailAble } = require("express-quickstart-framework").email;
+const { MailAble } = require("express-quickstart-package").email;
 
 module.exports = class Welcome extends MailAble {
   viewFile = "emails/welcome.pug";
@@ -53,7 +53,7 @@ Welcome email extends the Mailable class, which is used as object that is passed
 
 For sending instant emails, use the **sendEmail()** function.
 ```javascript
-const { sendEmail } = require("express-quickstart-framework").email;
+const { sendEmail } = require("express-quickstart-package").email;
 
 module.exports = async (user) => {
   await sendEmail(new Welcome(user));
@@ -62,7 +62,7 @@ module.exports = async (user) => {
 
 You can also add attachments
 ```javascript
-const { sendEmail } = require("express-quickstart-framework").email;
+const { sendEmail } = require("express-quickstart-package").email;
 
 module.exports = async (user) => {
   const email = new Welcome(user);
@@ -75,7 +75,7 @@ module.exports = async (user) => {
 
 However you also have the option to queue the emails to a redis Queue. **This queue is already configured and setup in the backend.**
 ```javascript
-const { queueEmail } = require("express-quickstart-framework").email;
+const { queueEmail } = require("express-quickstart-package").email;
 
 module.exports = async (user) => {
   await queueEmail(new Welcome(user));

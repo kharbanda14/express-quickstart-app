@@ -1,4 +1,4 @@
-const { queueEmail } = require("express-quickstart-framework").email;
+const { queueEmail } = require("express-quickstart-package").email;
 const Welcome = require("../../../mails/Welcome");
 
 module.exports = async (user) => {

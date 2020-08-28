@@ -1,3 +1,3 @@
 module.exports = {
-  emailQueue: require("express-quickstart-framework").email.emailQueue,
+  emailQueue: require("express-quickstart-package").email.emailQueue,
 };

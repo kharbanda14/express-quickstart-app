@@ -20,7 +20,7 @@ getQueue(queueName: string): Bull.Queue<any>;
 
 ### Creating Queue
 ```javascript
-const { queue } = require("express-quickstart-framework");
+const { queue } = require("express-quickstart-package");
 
 queue.createQueue("sample-queue", async (job, done) => {
   // perform operations
@@ -33,7 +33,7 @@ queue.createQueue("sample-queue", async (job, done) => {
 The following returns bull Queue instance thus, therefor you have access to all the methods it has, check Queue api for available methods
 
 ```javascript
-const { queue } = require("express-quickstart-framework");
+const { queue } = require("express-quickstart-package");
 
 queue.getQueue("sample-queue");
 ```

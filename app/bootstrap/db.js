@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const { logger } = require("express-quickstart-framework");
+const { logger } = require("express-quickstart-package");
 
 mongoose
   .connect(process.env.DB_URL, {
@@ -8,5 +8,5 @@ mongoose
   })
   .then(() => {
     logger.debug("DB connected");
-    require("express-quickstart-framework/providers/models");
+    require("express-quickstart-package/providers/models");
   });

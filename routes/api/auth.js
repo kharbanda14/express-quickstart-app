@@ -6,7 +6,7 @@ const expressAsyncHandler = require("express-async-handler");
 const {
   validateRequestBody,
   requiresAuth,
-} = require("express-quickstart-framework").middleware;
+} = require("express-quickstart-package").middleware;
 
 const authValidations = require("../../app/validations/auth");
 

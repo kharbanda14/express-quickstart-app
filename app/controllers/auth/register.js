@@ -1,6 +1,6 @@
-const models = require("express-quickstart-framework/providers/models");
-const { ValidationFailed } = require("express-quickstart-framework").exceptions;
-const events = require("express-quickstart-framework/providers/events");
+const models = require("express-quickstart-package/providers/models");
+const { ValidationFailed } = require("express-quickstart-package").exceptions;
+const events = require("express-quickstart-package/providers/events");
 
 module.exports = async (req, res, next) => {
   const data = req.body;

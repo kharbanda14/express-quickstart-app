@@ -9,7 +9,7 @@ All the models can be fetched using. It returns a object with
 ```javascript
 const {
   models,
-} = require("express-quickstart-framework");
+} = require("express-quickstart-package");
 
 console.log(models); // object
 

@@ -20,6 +20,6 @@ const schema = new mongoose.Schema(
   { timestamps: true }
 );
 
-schema.plugin(require("express-quickstart-framework/models/plugins/password"));
+schema.plugin(require("express-quickstart-package/models/plugins/password"));
 
 module.exports = mongoose.model("User", schema);

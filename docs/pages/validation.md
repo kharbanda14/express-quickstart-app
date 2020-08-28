@@ -9,7 +9,7 @@ Validation provider uses the **[joi](https://www.npmjs.com/package/joi)** packag
 ```javascript
 const {
   validateRequestBody,
-} = require("express-quickstart-framework").middleware;
+} = require("express-quickstart-package").middleware;
 
 
 
@@ -26,5 +26,5 @@ const joiSchemaCallback = (joi) => ({
 ## Validation Provider
 
 ```javascript
-const { validator } = require("express-quickstart-framework");
+const { validator } = require("express-quickstart-package");
 ```

@@ -1,7 +1,5 @@
-const models = require("express-quickstart-framework/providers/models");
-const {
-  InvalidCredentials,
-} = require("express-quickstart-framework").exceptions;
+const models = require("express-quickstart-package/providers/models");
+const { InvalidCredentials } = require("express-quickstart-package").exceptions;
 
 module.exports = async (req, res, next) => {
   const User = await models.User.findOne({ email: req.body.email });

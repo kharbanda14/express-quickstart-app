@@ -18,7 +18,7 @@ instance(): NodeCache;
 
 ```javascript
 
-const {cache} = require('express-quickstart-framework');
+const {cache} = require('express-quickstart-package');
 
 cache.set('key', 'value', ttl); // ttl is in seconds
 

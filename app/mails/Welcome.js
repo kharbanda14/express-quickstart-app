@@ -1,4 +1,4 @@
-const { MailAble } = require("express-quickstart-framework").email;
+const { MailAble } = require("express-quickstart-package").email;
 
 module.exports = class Welcome extends MailAble {
   viewFile = "emails/welcome.pug";

@@ -5,9 +5,9 @@ var logger = require("morgan");
 const fileUpload = require("express-fileupload");
 require("dotenv").config();
 
-const passport = require("express-quickstart-framework/providers/auth");
+const passport = require("express-quickstart-package/providers/auth");
 
-const loggerLib = require("express-quickstart-framework/providers/logger");
+const loggerLib = require("express-quickstart-package/providers/logger");
 
 require("./app/bootstrap");
 
