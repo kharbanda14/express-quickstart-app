@@ -669,10 +669,10 @@ express-fileupload@^1.2.0:
   dependencies:
     busboy "^0.3.1"
 
-express-quickstart-package@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/express-quickstart-package/-/express-quickstart-package-0.0.1.tgz#35fcb54e2963090cd6795415358b69fd1b0ee9ee"
-  integrity sha512-M9xtYm64lTmiuhaJfE0xfzycwbV0wiMpp0iziIbviF0N3G0PO+tKtELf6GfmyXr0WkM+XdiVBQPnCyou2PNX9w==
+express-quickstart-package@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/express-quickstart-package/-/express-quickstart-package-0.1.0.tgz#8b0eafad237e9e66b3fe26c41a908044fcac4f4b"
+  integrity sha512-cLi3r7XHxgaPBDTMQ0cPJU4xwNlydLeTKL8sQqJCARvi5uprvPjnbMcBgxqK9IROhEHKXUlOb8eqMFuTk3j/Yw==
   dependencies:
     bcryptjs "^2.4.3"
     bull "^3.18.0"
