@@ -15,4 +15,5 @@
 * [Scheduler](pages/scheduler)
 * [Logging](pages/logging)
 * [Storage](pages/storage)
+  * [File Uploading](pages/storage.md#file-uploading)
 * [Validation](pages/validation)

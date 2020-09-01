@@ -8,6 +8,7 @@ to quickly start building your web applications. **Currently it is under develop
   - [Introduction](#introduction)
   - [Documentation](#documentation)
   - [Features](#features)
+  - [Purpose](#purpose)
   - [Packages/Modules used](#packagesmodules-used)
   - [Installation](#installation)
   - [Running Application](#running-application)
@@ -28,6 +29,9 @@ to quickly start building your web applications. **Currently it is under develop
 10. Email rendering with Pug.js
 11. Event Dispatching and Listeners
 12. FileSystem (Local supported only)
+
+## Purpose
+Purpose of this application is to save time while starting/creating Express web applications from scratch.
 
 ## Packages/Modules used
 1. [winston](https://www.npmjs.com/package/winston)
